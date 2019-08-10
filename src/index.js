@@ -11,11 +11,11 @@ function App() {
   );
 }
 
-function HomePage() {
-  return <div>Home Page</div>
-}
-
 function Routes() {
+  function HomePage() {
+    return <div>Home Page</div>
+  }
+
   return (
     <HashRouter>
       <Switch>
